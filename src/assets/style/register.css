@@ -1,0 +1,36 @@
+select.PhoneInputCountrySelect {
+  max-width: 100%;
+}
+
+input.PhoneInputInput {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+input.PhoneInputInput {
+  width: 100%;
+  border-radius: 0 8px 8px 0;
+  padding: 10px;
+}
+
+.PhoneInput {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+img.PhoneInputCountryIconImg {
+  max-width: 57%;
+}
+
+@media only screen and (max-width: 480px) {
+  .PhoneInput {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .PhoneInput {
+    grid-template-columns: 35% 65%;
+  }
+}

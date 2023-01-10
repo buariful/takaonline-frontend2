@@ -1,0 +1,18 @@
+@media only screen and (max-width: 480px) {
+   .video_wrapper {
+      width: 64vh;
+      height: 57vh;
+   }
+}
+@media only screen and (max-width: 768px) {
+   .video_wrapper {
+      height: 70vh;
+      width: 60vw;
+   }
+}
+@media only screen and (min-width: 768px) {
+   .video_wrapper {
+      height: 60vh;
+      width: 50%;
+   }
+}
